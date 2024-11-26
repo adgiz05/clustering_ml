@@ -6,9 +6,9 @@ import matplotlib.pyplot as plt
 from scipy.cluster.hierarchy import dendrogram, linkage
 
 # Constant
-DATASET1 = "./dataSets/DS_3Clusters_999Points.txt"
-DATASET2 = "./dataSets/DS2_3Clusters_999Points.txt"
-DATASET3 = "./dataSets/DS_5Clusters_10000Points.txt"
+DATASET1 = "../dataSets/DS_3Clusters_999Points.txt"
+DATASET2 = "../dataSets/DS2_3Clusters_999Points.txt"
+DATASET3 = "../dataSets/DS_5Clusters_10000Points.txt"
 
 
 def dataset_to_list_points(dir_dataset):

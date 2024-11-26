@@ -7,10 +7,10 @@ from scipy.spatial import distance
 from Point import Point
 from Cluster import Cluster
 
-DATASET1 = "./dataSets/DS_3Clusters_999Points.txt"
-DATASET2 = "./dataSets/DS2_3Clusters_999Points.txt"
-DATASET3 = "./dataSets/DS_5Clusters_10000Points.txt"
-DATASET4 = "./dataSets/DS_7Clusters_100000Points.txt"
+DATASET1 = "../dataSets/DS_3Clusters_999Points.txt"
+DATASET2 = "../dataSets/DS2_3Clusters_999Points.txt"
+DATASET3 = "../dataSets/DS_5Clusters_10000Points.txt"
+DATASET4 = "../dataSets/DS_7Clusters_100000Points.txt"
 
 NUM_CLUSTERS = 3
 ITERATIONS = 10

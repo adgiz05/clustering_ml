@@ -3,9 +3,9 @@ import matplotlib.pyplot as plt
 from sklearn.cluster import KMeans
 
 # Constant
-DATASET1 = "./dataSets/DS_3Clusters_999Points.txt"
-DATASET2 = "./dataSets/DS2_3Clusters_999Points.txt"
-DATASET3 = "./dataSets/DS_5Clusters_10000Points.txt"
+DATASET1 = "../dataSets/DS_3Clusters_999Points.txt"
+DATASET2 = "../dataSets/DS2_3Clusters_999Points.txt"
+DATASET3 = "../dataSets/DS_5Clusters_10000Points.txt"
 LOOPS = 20
 MAX_ITERATIONS = 10
 INITIALIZE_CLUSTERS = 'k-means++'

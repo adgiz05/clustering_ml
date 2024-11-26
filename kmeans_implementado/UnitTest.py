@@ -9,7 +9,7 @@ from Cluster import Cluster
 
 class MyTestCase(unittest.TestCase):
     global DATASET
-    DATASET = "./dataSets/DS_3Clusters_999Points.txt"
+    DATASET = "../dataSets/DS_3Clusters_999Points.txt"
     global point
     point = Point(np.array([2, 2]))
     global list_points
